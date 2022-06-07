@@ -1,0 +1,39 @@
+.top {
+    width: 60vh;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 20px;
+    h2{
+        padding-left: 30px;
+    }
+    p{
+      padding-left: 50px;
+      z-index: -1;
+      position: absolute;
+      font-size: 300px;
+      font-family: 'Londrina Outline', cursive;
+      margin: -80px;
+      
+    }
+  
+    & ul {
+      
+      width: 100vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      & img {
+        padding-left: 30px;
+        width: 160px;
+        height: 220px;
+        object-fit: cover;
+        
+        
+      }
+    }
+  }

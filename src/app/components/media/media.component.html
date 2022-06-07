@@ -1,0 +1,11 @@
+
+  <section class="accion">
+      <h2>{{films.title}}</h2>
+    <article>
+      <ul>
+        <li *ngFor="let film of films.films">
+            <img src="{{film.src}}" alt="{{film.alt}}">
+        </li>
+      </ul>
+    </article>
+  </section>

@@ -1,0 +1,11 @@
+<section class="top">
+    <h2>{{ mediaInfo.title}}</h2>
+    <ul>
+      <li *ngFor="let film of mediaInfo.films, let i = index">
+        <p>{{falsei+i}}</p>
+        <img src="{{film.src}}" alt="{{film.alt}}" />
+        
+      </li>
+    </ul>
+  </section>
+  
