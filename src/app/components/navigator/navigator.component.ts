@@ -24,10 +24,7 @@ export class NavigatorComponent implements OnInit {
         text: "inicio",
         link: "#inicio"
       },
-      {
-        text: "buscar",
-        link: "buscar"
-      },
+      
       ]
     }
   }
